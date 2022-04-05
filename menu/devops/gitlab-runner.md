@@ -30,6 +30,31 @@ docker-compose -f ./docker-compose.yml up -d
 docker exec -it gitlab-runner gitlab-runner register
 ```
 之后按提示选择配置
+### token
 ![image](https://user-images.githubusercontent.com/15847900/161719479-aff7acf3-f2ae-4d8d-b7c4-38cdd5fce9d5.png)
 token获取请看上图
+
+### tag 配置
+tag与commit相关，用于触发ci
+
+## 特定分支触发ci
+
+配置job rules
+
+```
+rules:
+  - if: $CI_COMMIT_BRANCH == "main"
+```
+
+```
+test-job1:
+  stage: test
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+  script:
+    - echo "This job tests something"
+```
+
+
+
 
