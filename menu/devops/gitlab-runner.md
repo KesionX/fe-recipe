@@ -37,6 +37,9 @@ token获取请看上图
 ### tag 配置
 tag与commit相关，用于触发ci
 
+![image](https://user-images.githubusercontent.com/15847900/161741572-0b72e6c6-2602-4b14-87e8-9e408ca97082.png)
+
+
 ## 特定分支触发ci
 
 配置job rules
