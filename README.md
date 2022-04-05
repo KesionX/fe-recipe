@@ -17,6 +17,8 @@
   -  [多环境部署]
   -  [灰度实现]
   -  [秒级回滚]
+- [npm私有库搭建]
+- [vue3 原理与设计](https://github.com/KesionX/ue3)
 - [rust]
 - [docker]
-- [vue3 原理与设计](https://github.com/KesionX/ue3)
+- [nginx]
