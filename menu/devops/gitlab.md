@@ -59,12 +59,8 @@ docker-compose -f ./docker-compose.yml up -d
 
 5. 打开对应端口的浏览器
 
-6. 如果出现502，需要去配置下repo的权限
-```
-chmod +x /srv/gitlab/data/git-data/repositories
-```
-
-7. 刷新页面查看，多刷几次，没有的话就重启docker gitlab
+6. 如果出现502，很有可能是内存不够，可以等个10分钟再试下
+7. 刷新页面查看
 
 ## 初始密码
 管理员账号：root
