@@ -11,7 +11,7 @@
 ## 目录
 - [devops](./menu/devops/index.md)
   -  [gitlab](./menu/devops/gitlab.md) 
-  -  [gitlab ci/cd]
+  -  [gitlab runner](./menu/devops/gitlab-runner.md) 
   -  [自动化部署]
   -  [cdn搭建]
   -  [多环境部署]
