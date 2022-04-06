@@ -76,3 +76,16 @@ build-job:
   extends: .common-config
 ```
 
+### docker node环境
+
+### .gitlab-ci.yml
+使用node镜像，默认安装了yarn
+```
+default:
+  image: node
+  before_script:
+    - npm config set registry https://registry.npm.taobao.org
+    - npm i -g @vue/cli-service
+```
+
+
