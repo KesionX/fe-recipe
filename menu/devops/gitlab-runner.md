@@ -87,5 +87,5 @@ default:
     - npm config set registry https://registry.npm.taobao.org
     - npm i -g @vue/cli-service
 ```
-
+在使用之前最好配置下npm镜像源，不然会挺慢的
 
