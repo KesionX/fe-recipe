@@ -58,6 +58,21 @@ test-job1:
     - echo "This job tests something"
 ```
 
+### extend
 
+```
+.common-config: 
+  only: # 表示仅在develop/release分支上执行
+    refs:
+      - develop
+      - release
 
+install-job:
+  # 其他配置 ....
+  extends: .common-config
+
+build-job:
+  # 其他配置 ....
+  extends: .common-config
+```
 
