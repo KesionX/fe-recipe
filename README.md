@@ -9,6 +9,11 @@
 - 详细的文档输出，记录实践过程
 
 ## 目录
+- [vue3 原理与设计](https://github.com/KesionX/ue3)
+- [rust]
+- [nginx]
+- [docker]
+  - [base](./menu/docker/base.md) 
 - [devops](./menu/devops/index.md)
   -  [gitlab](./menu/devops/gitlab.md) 
   -  [gitlab runner](./menu/devops/gitlab-runner.md) 
@@ -18,8 +23,3 @@
   -  [灰度实现]
   -  [秒级回滚]
 - [npm私有库搭建]
-- [vue3 原理与设计](https://github.com/KesionX/ue3)
-- [rust]
-- [docker]
-  - [base](./menu/docker/base.md) 
-- [nginx]
